@@ -66,8 +66,6 @@ public class US_07_NotificationsStepDefs {
         mlk.findElementAndClickFunction("searchButton");
         new Parent().waiting(1000);
         mlk.elementMustBeClickable("deleteButton");
-        mlk.findElementAndClickFunction("deleteButton");
-        mlk.findElementAndClickFunction("yesButton");
     }
 
 
