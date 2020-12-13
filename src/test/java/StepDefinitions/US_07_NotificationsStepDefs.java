@@ -44,7 +44,7 @@ public class US_07_NotificationsStepDefs {
     public void searchForTheNameYouCreatedAndVerifyItMatchesTheResult() {
         mlk.findElementAndSendKeysFunction("dialogInput1", "Ufuk2825");
         mlk.findElementAndClickFunction("searchButton");
-        new Parent().waiting(500);
+        new Parent().waiting(1000);
         Assert.assertEquals(mlk.searchResult.getText(),"Ufuk2825");
     }
 
@@ -64,7 +64,7 @@ public class US_07_NotificationsStepDefs {
     public void deleteTheNotification() {
         mlk.findElementAndSendKeysFunction("dialogInput1", "Zubeyir2828");
         mlk.findElementAndClickFunction("searchButton");
-        new Parent().waiting(500);
+        new Parent().waiting(1000);
         mlk.elementMustBeClickable("deleteButton");
         mlk.findElementAndClickFunction("deleteButton");
         mlk.findElementAndClickFunction("yesButton");
