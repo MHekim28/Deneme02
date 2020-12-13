@@ -32,6 +32,10 @@ public class US_07_NotificationsStepDefs {
         mlk.findElementAndSendKeysFunction("notifDecription", "You can do anything.Just get up and do it.");
         mlk.findElementAndClickFunction("tabSMS");
         mlk.findElementAndClickFunction("saveButton");
+        mlk.findElementAndClickFunction("tabSMS");
+        mlk.findElementAndClickFunction("saveButton");
+        mlk.findElementAndClickFunction("tabSMS");
+        mlk.findElementAndClickFunction("saveButton");
 
     }
 
